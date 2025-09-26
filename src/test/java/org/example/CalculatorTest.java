@@ -7,6 +7,6 @@ public class CalculatorTest {
     void testAdd() {
         Calculator calculator = new Calculator();
         int result = calculator.add(2, 3);
-        assertEquals(9 , result); // ✅ The expected output is 5
+        assertEquals(5 , result); // ✅ The expected output is 5
     }
 }
